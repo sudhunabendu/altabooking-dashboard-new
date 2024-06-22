@@ -9,7 +9,7 @@ module.exports = (app) => {
         next();
       });
     var router = require("express").Router();
-     router.get("/auth/user-registration", AuthController.registration);
+     router.post("/auth/user-registration", AuthController.registration);
 
      app.use('/api/v1', router);
 }
