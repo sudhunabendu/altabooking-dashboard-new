@@ -24,9 +24,9 @@ app.use(fileUpload());
 // Models
 const db = require("./app/Models");
 
-// db.mongoose.connect(`mongodb+srv://NodeClass:Goodtime2323%40@cluster0.fwvqxqi.mongodb.net/altabookingTest`, {
+db.mongoose.connect(`mongodb+srv://NodeClass:Goodtime2323%40@cluster0.fwvqxqi.mongodb.net/altabookingTest`, {
 
-db.mongoose.connect(`mongodb://127.0.0.1:27017/altabooking-dashboard`, {
+// db.mongoose.connect(`mongodb://127.0.0.1:27017/altabooking-dashboard`, {
     useNewUrlParser: true,
     useUnifiedTopology: true
 }).then(() => {
